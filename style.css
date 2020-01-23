@@ -51,6 +51,119 @@ nav {
     margin-top: 20px;
 }
 
+.top-slide {
+    background: url(img/slider_bg.png) no-repeat;
+    padding-top: 120px;
+    padding-bottom: 280px;
+}
+
+.top-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.top-slide h2 {
+    background: #ffea00;
+    display: inline;
+    font-size: 70px;
+    padding: 0 13px;
+    margin-left: 100px;
+}
+
+.top-slide :nth-child(2) {
+    margin-bottom: 20px;
+}
+
+.top-slide p {
+    background: #414146;
+    display: inline;
+    font-size: 24px;
+    padding: 0 5px;
+    color: white;
+    margin-left: 125px;
+}
+
+.specialize-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.specialize-container h3 {
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+.specialize-container p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.first-p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.bottom-card {
+    background: #414146;
+    position: relative;
+    top: -30px;
+}
+
+.specialize-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio h4 {
+    background: #424147;
+    padding: 0 8px;
+    font-size: 18px;
+    display: inline-block;
+    color: #f5e10a;
+    margin-bottom: 30px;
+}
+
+.portfolio p {
+    color: #424146;
+    font-size: 16px;
+}
+
+.toggles button {
+    border: none;
+    color: #424146;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 5px;
+}
+
+.toggles button:after {
+    content: '  /';
+}
+
+.toggles button:last-child:after {
+    content: '';
+}
+
+.posts {
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+
+body {
+    height: 4000px;
+}
+
 @media screen and (max-width: 420px) {
     .header-container {
         width: 100%;
