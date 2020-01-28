@@ -160,8 +160,27 @@ nav {
     justify-content: space-evenly;
 }
 
-body {
-    height: 4000px;
+.brand-slider {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.brand-slider h4 {
+    margin-top: 40px;
+    background: #424147;
+    padding: 0 8px;
+    font-size: 18px;
+    display: inline-block;
+    color: #f5e10a;
+    margin-bottom: 30px;
+}
+
+.brand-slider p {
+    color: #424146;
+    font-size: 16px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 420px) {
@@ -206,5 +225,33 @@ body {
         position: relative;
         top: 30px;
         right: 115px;
+    }
+    .top-slide {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .top-slide h2 {
+        font-size: 32px;
+    }
+    .top-slide p {
+        font-size: 16px;
+    }
+    .specialize-container p {
+        font-size: 16px;
+    }
+    .specialize-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .bottom-card {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .posts {
+        width: 90%;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: auto;
     }
 }
